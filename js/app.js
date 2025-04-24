@@ -71,7 +71,7 @@ function hideAdultPasswordError() {
     }
 }
 
-// 处理管理员密码提交事件
+// 处理隐藏源密码提交事件
 async function handleAdultPasswordSubmit() {
     const passwordInput = document.getElementById('adultPasswordInput');
     const password = passwordInput ? passwordInput.value.trim() : '';
@@ -134,7 +134,7 @@ function checkHideBuiltinAdultApisStatus() {
     }
 }
 
-// 初始化管理员密码验证
+// 初始化隐藏源密码验证
 document.addEventListener('DOMContentLoaded', function() {
     // 检查 HIDE_BUILTIN_ADULT_APIS 的状态
     checkHideBuiltinAdultApisStatus();
