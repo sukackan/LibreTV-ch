@@ -138,7 +138,6 @@ function checkHideBuiltinAdultApisStatus() {
 document.addEventListener('DOMContentLoaded', function() {
     // 检查 HIDE_BUILTIN_ADULT_APIS 的状态
     checkHideBuiltinAdultApisStatus();
-    hideAdultPasswordModal();
     
     const submitButton = document.getElementById('adultPasswordSubmitBtn');
     if (submitButton) {
