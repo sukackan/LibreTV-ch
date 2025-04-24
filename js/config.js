@@ -120,6 +120,68 @@ const API_SITES = {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
         adult: true
+    },
+    uk: {
+        api: 'https://api.ukuapi.com',
+        name: 'U酷资源',
+    },
+    qilin: {
+        api: 'https://yutuzy10.com',
+        name: '麒麟资源',
+        adult: true
+    },
+    wujin: {
+        api: 'https://api.wujinapi.com',
+        name: '无尽资源',
+    },
+    ffzy2: {
+        api: 'http://cj.ffzyapi.com',
+        name: '非凡资源',
+    },
+    liangzi: {
+        api: 'http://cj.lziapi.com',
+        name: '量子资源',
+    },
+    hme: {
+        api: 'https://json02.heimuer.xyz',
+        name: '黑木耳二',
+    },
+    wol: {
+        api: 'https://collect.wolongzy.cc',
+        name: '卧龙二',
+    },
+    ikun: {
+        api: 'https://ikunzyapi.com',
+        name: 'ikun资源',
+    },
+    wang: {
+        api: 'https://api.wwzy.tv',
+        name: '旺旺资源',
+    },
+    iby: {
+        api: 'http://lbapiby.com',
+        name: 'lbapiby资源',
+        adult: true
+    },
+    hapi9: {
+        api: 'http://fhapi9.com',
+        name: 'fhapi9资源',
+        adult: true
+    },
+    bapi9: {
+        api: 'https://lbapi9.com',
+        name: 'lbapi9资源',
+        adult: true
+    },
+    md: {
+        api: 'https://91md.me',
+        name: '91md资源',
+        adult: true
+    },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com',
+        name: 'apilsbzy1资源',
+        adult: true
     }
     // 您可以按需添加更多源
 };
@@ -202,4 +264,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+let HIDE_BUILTIN_ADULT_APIS = true;
