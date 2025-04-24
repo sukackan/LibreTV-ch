@@ -38,6 +38,7 @@ function showAdultPasswordModal() {
                 passwordInput.focus();
             }
         }, 100);
+        //console.log("隐藏源密码:", ADULT_PASSWORD);
     }
 }
 
