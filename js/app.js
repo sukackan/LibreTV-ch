@@ -118,7 +118,7 @@ function checkHideBuiltinAdultApisStatus() {
             
             // 可选：显示提示
             showToast('隐藏API源的状态已过期，已重置', 'info');
-            if (!isAdminVerified()) {
+            if (!isAdultVerified()) {
             // 仅清除隐藏API的选中状态
                const previousAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '[]');
                const newAPIs = previousAPIs.filter(api => !API_SITES[api]?.adult);
